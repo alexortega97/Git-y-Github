@@ -113,3 +113,6 @@ for fold_index, (train_index, val_index) in enumerate(kf.split(images), 1):
 
     plt.tight_layout()
     plt.savefig(f"C:/Users/Usuario/Desktop/temporal/3-64_1-256_{fold_index}.png")
+
+
+#Codigo completo original"
