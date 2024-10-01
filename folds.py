@@ -88,28 +88,3 @@ for fold_index, (train_index, val_index) in enumerate(kf.split(images), 1):
     val_loss = history.history['val_loss']
     accuracy = history.history['accuracy']
     val_accuracy = history.history['val_accuracy']
-
-    # Número de épocas
-    epochs2 = range(1, len(loss) + 1)
-
-    # Grafica la pérdida y el accuracy de entrenamiento
-    plt.figure(figsize=(12, 6))
-
-    plt.subplot(1, 2, 1)
-    plt.plot(epochs2, loss, 'b', label='Pérdida de entrenamiento')
-    plt.plot(epochs2, val_loss, 'r', label='Pérdida de validación')
-    plt.title('Pérdida de entrenamiento y validación')
-    plt.xlabel('Épocas')
-    plt.ylabel('Pérdida')
-    plt.legend()
-
-    plt.subplot(1, 2, 2)
-    plt.plot(epochs2, accuracy, 'b', label='Accuracy de entrenamiento')
-    plt.plot(epochs2, val_accuracy, 'r', label='Accuracy de validación')
-    plt.title('Accuracy de entrenamiento y validación')
-    plt.xlabel('Épocas')
-    plt.ylabel('Accuracy')
-    plt.legend()
-
-    plt.tight_layout()
-    plt.savefig(f"C:/Users/Usuario/Desktop/temporal/3-64_1-256_{fold_index}.png")
