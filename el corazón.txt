@@ -3,3 +3,5 @@ Hola
 Agreguemos una línea.
 
 Todo en orden.
+
+Verificamos el reset HEAD.
