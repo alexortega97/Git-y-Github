@@ -5,3 +5,17 @@ Agreguemos una línea.
 Todo en orden.
 
 Verificamos el reset HEAD.
+
+Agregaremos un párrafo nuevo. Adicional, tendrá otra fuente, negrita oblicua y un tamaño más grande.
+Aprovecharé para contar del 1 al 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+No agregué el cero porque nunca se cuenta desde el 0.
