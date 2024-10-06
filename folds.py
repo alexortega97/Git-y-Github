@@ -117,6 +117,6 @@ for fold_index, (train_index, val_index) in enumerate(kf.split(images), 1):
 
 #Codigo completo original"
 
-a = 1
+a = 2
 b = a + a
-c = a + b
+c = a - b
